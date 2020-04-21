@@ -1,0 +1,27 @@
+:root {
+    --cellwidth: 1px;
+    --margin: 8px;
+    --borderwidth: 0;
+}
+table {
+    border-collapse: collapse;
+    float: left;
+    margin: var(--margin);
+}
+td {
+    border:var(--borderwidth) solid black;
+    width: var(--cellwidth);
+    height: var(--cellwidth);
+}
+
+td.dead {
+    background: white;
+}
+
+td.alive {
+    background: coral;
+}
+
+td.outline {
+    background: rgb(15, 22, 36);
+}
