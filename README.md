@@ -10,4 +10,6 @@ Depending on the random function the results are incredible different.
 
 For this quick release only HTML tables are rendered, but it is kept open to enhance for more renderers.
 
+Clone the repo and open the index.html with your browser.
+
 ![examples](examples.png)
